@@ -1,8 +1,3 @@
-@font-face {
-	font-family: zag;
-	src: url('zag-bold.otf');
-}
-
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
@@ -13,24 +8,19 @@ a {
 	color: #FFFFFF;
 }
 
-#header {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+a:visited {
+	color: #FFFFFF;
 }
 
-#content {
-	width: 40%;
-	min-width: 20em;
-	padding: 1em;
-	margin-top: -1em;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
+a:hover {
+	color: #FFFFFF;
 }
 
-#what-link {
-	text-align: center;
-	font-size: 2em;
+#logo {
+    background: url('apog-landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:100em;
 }
