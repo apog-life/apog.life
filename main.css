@@ -4,14 +4,20 @@
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #FFFFFF;
-    background-color: #21221F;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: #21221F;
+}
+
+#image-wrapper {
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 #header-img {
-    width: 100%;
-    height: auto;
+	max-width: 100%;
+	min-width: 50%;
+	height: auto;
 }
 
 #content {
