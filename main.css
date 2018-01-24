@@ -16,11 +16,38 @@ a:hover {
 	color: #FFFFFF;
 }
 
-#logo {
-    background: url('apog-landing.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    height:100em;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#content {
+
+}
+
+#header {
+
+}
+
+#logo-wrapper {
+	width: 100%;
+}
+
+#logo-image {
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+#what-link {
+	
+}
+
+#blah {
+	transform: scale(0.5) translate(0%, -50%);
+	transform: translate(0, -30em);
+
+	margin-left: -50%;
+	margin-right: -50%;
 }
