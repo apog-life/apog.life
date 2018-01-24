@@ -1,6 +1,24 @@
+@font-face {
+	font-family: zag;
+	src: url('zag-bold.otf');
+}
+
 body {
-    background:
-    	url('apog-landing.jpg') no-repeat center;
-    background-size: cover;
-    background-position: left 0%;
+    font-family: zag, Helvetica, sans-serif;
+}
+
+#header {
+	background: url('apog-landing.jpg') no-repeat center;
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px 0px -30px;
+}
+
+#content {
+	margin: auto;
+	width: 33%;
+}
+
+#details {
+
 }
