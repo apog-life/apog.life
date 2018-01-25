@@ -25,13 +25,13 @@ img {
 }
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
 
-  	img {
+	img {
 		width: 800px;
 	}
 
@@ -44,11 +44,26 @@ img {
 #logo-image {
 	margin-left: 50%;
 	transform: translateX(-50%);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 3px;
+}
+
+#what-link h3 a {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	padding: .3em .5em .3em .5em;
+	z-index: -1;
 }
 
 /* Portrait */
 @media only screen 
   and (min-device-width: 1000px) { 
+  	
+  	#logo-wrapper {
+		padding-top: 2%;
+	}
 
 	/* ---- particles.js container ---- */ 
 	#particles-js{ position:absolute; width: 100%; height: 100%; background-color: #21221F; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
