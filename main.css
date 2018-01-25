@@ -2,6 +2,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
 	background-color: #21221F;
+	background-image: url("images/shattered.png");
 }
 
 a {
@@ -20,6 +21,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
 }
 
 /* Portrait */
@@ -35,14 +37,6 @@ img {
 
 }
 
-#content {
-
-}
-
-#header {
-
-}
-
 #logo-wrapper {
 	width: 100%;
 }
@@ -52,14 +46,11 @@ img {
 	transform: translateX(-50%);
 }
 
-#what-link {
-	
-}
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1000px) { 
 
-#blah {
-	transform: scale(0.5) translate(0%, -50%);
-	transform: translate(0, -30em);
+	/* ---- particles.js container ---- */ 
+	#particles-js{ position:absolute; width: 100%; height: 100%; background-color: #21221F; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
 
-	margin-left: -50%;
-	margin-right: -50%;
 }
