@@ -16,6 +16,13 @@ a:hover {
 	color: #FFFFFF;
 }
 
+#content {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
@@ -23,16 +30,19 @@ a:hover {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
-}
-
-#content {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+  #content {
+  	width: 90%;
+  }
 }
 
 #details {
 	margin-top: -7em;
+	margin-bottom: 10em;
+	padding: 5%;
+}
+
+#details h3 {
+	text-align: left;
 }
 
 header {
