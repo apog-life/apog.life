@@ -72,7 +72,7 @@ img {
 #what-link h3 a {
 	border-style: solid;
 	border-color: #FFFFFF;
-	border-width: 2px;
+	border-width: 3px;
 	padding: .3em .5em .3em .5em;
 	z-index: 100;
 	position: relative;
