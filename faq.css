@@ -74,9 +74,14 @@ h1 {
   z-index: -1;
 }
 
-header h1 {
+#content header h1 {
   position: relative;
   color: white;
+  z-index: 100;
+}
+
+#content header img {
+  z-index: 10;
 }
 
 .box {

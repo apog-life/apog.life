@@ -184,4 +184,24 @@ body {
 
  }
 
+i {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
 
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#down-arrow {
+	text-align: center;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
