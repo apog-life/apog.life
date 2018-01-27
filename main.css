@@ -21,40 +21,6 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow:inset 0px 0px 6px 6px rgba(255,255,255,1);
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 1000px) { 
-
-	#logo-wrapper {
-		padding-top: 2%;
-	}
-
-	#particles-js{ 
-		position:absolute; 
-		width: 100%; 
-		height: 100%; 
-		background-color: #21221F; 
-		background-repeat: no-repeat; 
-		background-size: cover; 
-		background-position: 50% 50%; 
-	}
-
-}
-
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-	img {
-		width: 800px;
-	}
-
 }
 
 #logo-wrapper {
@@ -69,11 +35,131 @@ img {
 	border-width: 3px;
 }
 
-#what-link h3 a {
+#content {
 	border-style: solid;
 	border-color: #FFFFFF;
 	border-width: 3px;
-	padding: .3em .5em .3em .5em;
-	z-index: 100;
+	margin-top: 5em;
+	margin-bottom: 10em;
+	padding: 1em;
+	width: 20%;
+}
+
+#email-form {
+	width: 60%;
+	display: inline-block;
+	margin-bottom: .5em;
+}
+
+#what-link {
+	border-style: solid;
+	border-color: #00FFFF;
+	border-width: 3px;
 	position: relative;
+	width: 10em;
+	padding-bottom: .8em;
+	float: right;
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+}
+
+#what-link:hover {
+	background-color: #FFFFFF;
+}
+
+#what-link a {
+	color: #00FFFF;
+}
+
+
+
+/* ----- */
+
+body,html {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.wide {
+  width: 100%;
+  height: 100%;
+  height: calc(100% - 1px);
+  background-image: url('apog-landing-image.jpg');
+  background-size: cover;
+}
+
+.wide img {
+  width: 100%;
+}
+
+.logo {
+  padding: 25px;
+  text-align: center;
+  width: 40%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10em;
+}
+
+.line {
+  padding-top: 20px;
+  white-space: no-wrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.scaling-image {
+	background-image: url('images/grass-pug.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+@media only screen
+  and (max-device-width: 1025px) {
+
+	.logo {
+		width: 90%;
+	}
+
+	#content {
+		width: 60%;
+	}
+
+}
+
+@media only screen
+  and (max-device-width: 800px) {
+
+	#content {
+		width: 90%;
+	}
+
+}
+
+@media only screen
+  and (max-device-width: 500px) {
+
+	#content {
+		width: 90%;
+	}
+
+	#email-form {
+		width: 100%;
+		margin-bottom: .5em;
+	}
+
+	#what-link {
+		float: none;
+		margin: auto;
+		margin-top: 1em;
+		margin-bottom: .5em;
+	}
+
 }
