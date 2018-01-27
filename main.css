@@ -46,8 +46,7 @@ img {
 }
 
 #email-form {
-	width: 60%;
-	display: inline-block;
+	width: 100%;
 	margin-bottom: .5em;
 }
 
@@ -56,9 +55,8 @@ img {
 	border-color: #00FFFF;
 	border-width: 3px;
 	position: relative;
-	width: 10em;
+	width: 100%;
 	padding-bottom: .8em;
-	float: right;
 	margin-top: 1.5em;
 	margin-right: 1.5em;
 }
@@ -85,7 +83,7 @@ body {
 
 .wide {
   width: 100%;
-  height: 100%;
+  height: 120%;
   height: calc(100% - 1px);
   background-image: url('apog-landing-image.jpg');
   background-size: cover;
@@ -93,15 +91,16 @@ body {
 
 .wide img {
   width: 100%;
+  height: 100%;
 }
 
 .logo {
   padding: 25px;
   text-align: center;
-  width: 40%;
+  width: 70%;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 10em;
+  margin-top: 20%;
 }
 
 .line {
@@ -122,44 +121,67 @@ body {
 }
 
 @media only screen
-  and (max-device-width: 1025px) {
-
-	.logo {
-		width: 90%;
-	}
-
-	#content {
-		width: 60%;
-	}
-
-}
-
-@media only screen
-  and (max-device-width: 800px) {
-
-	#content {
-		width: 90%;
-	}
-
-}
-
-@media only screen
+  and (min-device-width: 1px)
   and (max-device-width: 500px) {
+
+  	.logo {
+ 
+   	}
 
 	#content {
 		width: 90%;
 	}
 
 	#email-form {
-		width: 100%;
-		margin-bottom: .5em;
+
 	}
 
 	#what-link {
-		float: none;
-		margin: auto;
-		margin-top: 1em;
-		margin-bottom: .5em;
+
 	}
 
 }
+
+@media only screen
+  and (min-device-width: 501px)
+  and (max-device-width: 800px) {
+
+	#content {
+		width: 60%;
+	}
+
+	#email-form {
+
+	}
+
+	.logo {
+		width: 60%;
+		margin-top: 10%;
+	}
+
+}
+
+@media only screen
+  and (min-device-width: 801px) {
+
+	.logo {
+		width: 40%;
+		margin-top: 5%;
+	}
+
+	#content {
+		width: 40%;
+	}
+
+}
+
+@media only screen
+  and (min-device-width: 1500px) {
+  	
+  	#content {
+		width: 20%;
+	}
+
+ }
+
+
