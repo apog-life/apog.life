@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$('#thank-you').hide();
+
 	$('#email-form').submit(function(event) {
 		
 		console.log('submitted');
@@ -12,6 +14,7 @@ $(document).ready(function() {
 			.done(function() {
 				console.log("success" );
 				$('#email-form').hide();
+				$('#thank-you').show();
 			})
 		  	.fail(function() {
 		    	alert( "error, please refresh the page try again" );
