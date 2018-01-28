@@ -11,9 +11,10 @@ $(document).ready(function() {
 		$.get('http://amckenna.pythonanywhere.com/sub/'+$('#formName').val()+'/'+$('#formEmail').val()+'/'+$('#formConnection').val()+'/')
 			.done(function() {
 				console.log("success" );
+				$('#email-form').hide();
 			})
 		  	.fail(function() {
-		    	console.log( "error" );
+		    	alert( "error, please refresh the page try again" );
 		  	});
 
 		event.preventDefault();
