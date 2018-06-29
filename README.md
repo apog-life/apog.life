@@ -6,62 +6,178 @@
 - What: See FAQ
 - Why: Because
 
-### FAQ
+### Festival FAQ
 
-1. Who is APOG?
+**What is APOG?**
 
-	You and a group like-minded friends and future-friends.
+A multi-day event that delivers all attendees opportunities to share creativity, engage in community, and have a lot of fun.
 
-2. What is APOG?
+**Where is APOG?**
 
-	A multi-day event that delivers all attendees opportunities to share creativity, engage in community, and have a lot of fun.
+It’s a secret! APOG will be held on 20-acres of private land tucked away in the forests of Whatcom County. More info will be provided to ticket holders immediately before the event.
 
-3. Where is APOG?
+**How do I get there?**
 
-	An outdoor venue approximately 90 minutes from downtown Seattle. Location will not be revealed until closer to the event date.
+Instructions will be delivered to ticket holders 24 hours prior to the event. Average travel time from Seattle (without traffic) is 90 minutes. Please reduce our impact by carpooling with friends. Have extra space in your car? Post to the Facebook group and find some folk to share gas costs ;) 
 
-4. When is APOG?
+**When can I arrive? When do I have to leave?**
 
-	Gates open Friday, July 27th @ 3:00 pm and 
-	Event concludes Sunday, July 29th @ 3:00 pm 
-	(times subject to change)
+Gates open Friday July 27 at 3:00PM. All guests must leave by 5:00PM on Sunday July 29.
 
-5. Why is APOG?
+**Can I leave and re-enter the event?**
 
-	The concept of APOG originated while a group extremely chill friends found themselves so thoroughly enjoying their camping experience at a festival, they posed the question: ‘Why this event? We could literally do this on any patch of grass (APOG).’
+Re-entry is not allowed. For specific questions and concerns contact info@apog.life  
 
-	As they reflected on their experiences hosting many large events, it became clear: this group is capable of some serious good vibe crafting. In an effort to share our unique flavor of awesome with the world, we are hosting an event that will be shaped by you!
+**Pack-it-in/Pack-it-out:**
 
-5. How do I participate?
+APOG is a leave-no-trace event, which means we are all responsible for leaving the venue in the condition we found it. Plan ahead and reduce or eliminate packaging on the items you bring to limit how much trash you produce at the event. Always bring trash and waste back to your camp and never drop garbage in the forest - especially cigarette butts(Pro-tip for smokers: Bring a small altoid tin or metal container to catch ash from your butts)! Pack a few garbage bags to collect the waste you produce at your campsite. We ask that you pack your trash out of the venue and dispose of it after the event.
 
-	Step 1: Add yourself the the mailing list. We’ll keep you updated with news about the event and send ticket sale information direct to your inbox.
+**Is there cell service at the venue?**
 
-	Step 2: Get involved. We want everyone who joins APOG to feel empowered and encouraged to be active participants of the event. For more information, see below:
+Most carriers have adequate coverage in the venue, though data connections can be slow. Use the excuse to leave your phone in your pocket and live in the moment!
 
-6. How do I get involved?
+**Are animals allowed?**
 
-	APOG is all about you! We are looking for people who want to build art, lead activities, perform, help coordinate, or contribute their ideas.
+Animals are not allowed (except your freaky-ass self). 
 
-	Types of involvement:
+**Where are water and bathrooms?**
 
-	- Performer: Got a song you want to share? Or a whole set? We will have stages with amplified sound and want to create a line-up with you on it!
-	- Leader: Have a fun class you want to teach or want to coordinate a game? We will have time reserved for events and we have a big list of ideas if you are looking for some direction!
-	- Artist: Have something cool to share or want to build something interactive? We want to feature it at APOG!
-	- Event Personnel: Want to help us build the event or be a part of the core planning team? Bring it!
-	- Other: Not listed above? Let us know!
+Bathrooms and water stations are available at the center of the venue.
 
-7. What's happening at APOG?
+**What’s the weather going to be like?**
 
-	We are building the schedule now so tell us how you would like to get involved at programming@apog.com
+Glorious PNW summer weather is the expectation—but check your favorite weather forecast before you arrive. Late July temps average between a high of 75F during the day to a low of 52F at night. We advise to bring at least one piece of rain gear, just in case.
 
-8. How much will a ticket cost?
+**Will you be posting set times?**
 
-	Pricing will be determined in part by RSVP’s, but our goal is to keep tickets below $150.  Help us keep ticket costs down by inviting more awesome people like you!
+Yes! Stay tuned for a post in the Facebook group and email.
 
-9. What should I bring?
+**Where can I go for information or help?**
 
-	Think: Car Camping. The event will not be providing food, water, or any other consumables. You will have access to your vehicle but it may not be convenient. There will be bathrooms and some trash/recycling available on site, but this will be a leave-no-trace pack-it-in/pack-it-out event.
+Information and first aid or emergency services will be available 24 hours a day at the operations center adjacent to the Meadow Stage. A First Aid cross banner will be next to the door.
 
-10. What should I NOT bring?
+**Will there be vendors?**
 
-	A bad attitude.
+There will be no vendors on site. Pack all food, alcohol, and supplies you will need for the entire weekend.
+
+**Can I bring alcohol?**
+
+Yes (and bring some to share)!  Glass is strongly discouraged for safety concerns. Please opt for canned liquids and plastic containers whenever possible.
+
+**Can I smoke cigarettes onsite?**
+
+TBD - Late July may present a high fire risk, which may require that we prohibit cigarettes or confine them to designated smoking areas for safety. Stay tuned for an announcement before the event. If you’ve been waiting to join Vape Nation, now may be the time.
+
+**Can I bring my bike?**
+
+Please do not bring bikes. While the venue is fairly large the areas of interest are quite close together. Your bike will be of no use if you choose to explore the forest :)
+
+**Can I bring my camera?**
+
+Yes, please do. Take dope photos.
+
+**Can I bring a drone?**
+
+Drones must be registered with APOG. Please contact info@apog.life    
+
+**How can I get involved?**
+
+Interested in volunteering with set-up/tear-down or helping with fun programming? Send us an email at: info@apog.life
+
+### Camping FAQ
+
+**Can I bring a grill or build a fire?**
+
+Open fires will not be allowed (we anticipate a burn ban will be in effect anyway). Propane camp stoves are allowed and encouraged. Please do not bring charcoal grills or wood burning grills.
+
+**Where can I get water? What about ice?**
+
+Water will be available at stations located near the center of the venue. Ice will not be available for sale in the venue but can be purchased from a gas station a few minutes from the venue on your way in. Please note: re-entry is not allowed. 
+
+**What is the campsite like?**
+
+All campsite are walk-in, just a short distance from the parking areas (<3min). Some sites are located in grass clearings, and others are tucked away in the forest. Sites are first-come-first-serve so get in early to claim your perfect spot. Several camp spots will be located next to our stages and the event will have a very open layout. Bring earplugs in anticipation of late-night music and/or noisy neighbors.
+
+**Can I bring a hammock?**
+
+Hell yeah!  Please do not attach hammocks to trees less than 6” in diameter.  Be aware that some hammocks may belong to attendees so please be respectful.
+
+**Can I camp next to my friends?**
+
+There are a limited number of campsites large enough for multiple tents, arrive early to claim one as all sites are first-come-first-serve. Please be courteous to other guests who may want to camp in the same area and share the space.
+
+**Can I leave and re-enter the event?**
+
+Re-entry is not allowed. For specific questions and concerns contact: info@apog.life
+
+**Will there be electricity in the camping area?**
+
+The entire venue is off of the electric grid and there will not be power available for personal use. Pack a few battery blocks to keep your devices juiced up.
+
+**What camping gear should I bring?**
+
+See our recommended packing section below.
+
+**Will there be showers?**
+
+There will not be showers available. Plan to bring shower wipes (Defense wipes are amazing LINK) or bring your own solar shower. (If you do choose to shower at APOG, biodegradable shower soaps such as Dr. Bronners are required, so please plan accordingly.)
+
+**Will I have access to my car?**
+
+Yes. Cars will be consolidated into nearby areas to conserve space in the venue. Depending on where you choose to set up your campsite your vehicle may be a few minutes away by foot. Keep this in mind when packing and remember to bring items that don’t suck to carry by hand in case you find the perfect spot deep in the woods. We also anticipate double-parking cars to conserve space. Anyone leaving early will need to make sure to inform our planning committee by contacting: info@apog.life
+
+**Can I bring a camper or RV?**
+
+Camper trailers and RVs are not allowed due to vehicle access and space constraints. Thank you for your understanding.
+
+**Can I bring my own sound system?**
+
+Small battery powered speakers are allowed. Please be courteous to your neighbors and move your party into the forest if you are disturbing guests who are trying to get some rest.
+
+### Recommended Packing:
+
+* Camping Equipment
+	* Headlamp, headlamp, headlamp. Do not forget to bring a headlamp!
+	* Reusable water bottles
+	* Tent
+	* Pad or air mattress (don’t forget your pump and batteries!)
+	* Summer weight sleeping bag or bedding
+	* Pillow
+	* Camp chairs
+	* Small table
+	* Trash bags
+	* Camp stove (propane only! No charcoal please)
+	* Pots, pans, cooking utensils, dishware
+	* Small popup shade (space not guaranteed)
+	* Solar shower
+	* Battery packs for your devices
+	* Battery powered lights for your campsite
+	* Cooler with ice for drinks and food
+	* Propane camp stove
+	* Reusable cup or mug for drinks—try to avoid disposable cups!
+
+* Food & Snack Ideas
+	* (Think about quick, mess-less, nutrient-dense foods—no one wants to spend all of APOG weekend cooking and cleaning)
+	* Hotdogs or brats
+	* Bagels & cream cheese (add avocado and ham for balanced snack)
+	* Premade pasta salads (potato salad!)
+	* Freeze-dried meals (such as Mountain House backpacking meals)
+	* Sandwich fixins
+	* Dried fruit & nut mixes
+	* Fresh fruit - especially if you have room to chill it in your cooler.
+	* A classy treat for yourself (beef wellington, lobster, Flaming Hot Cheetos, etc)
+
+* Festival Gear
+	* The weirdest, most outrageous, most stupendous articles of clothing you own.
+	* Reusable water bottle and/or hydration backpack
+	* Lights to wrap yourself in at night (LINKS)
+	* Hats & sunglasses
+	* Sunscreen
+	* Bug spray (bugs shouldn’t be an issue, though)
+	* Water mister bottles to stay cool
+	* Earplugs (for sleeping and/or the wub wubz)
+
+* What NOT To Bring
+	* Animals
+	* Fireworks
+	* Weapons
