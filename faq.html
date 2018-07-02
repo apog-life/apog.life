@@ -26,8 +26,23 @@
 
         <script>
           $(document).ready(function() {
-            $("ul").hide();
-            $("h3").click(function() { console.log("click"); console.log($(this).next().toggle()); })
+            $('h3').hover(function() {
+              $(this).css('cursor','pointer');
+            });
+            $('.faq-answer').hide();
+            $('h3').click(function() { 
+              $(this).next().toggle();
+              //console.log($(this).children('.icon').text());
+              var icon = $(this).children('.icon').text();
+              if (icon == '+')
+                $(this).children('.icon').text(function () {
+                  return $(this).text().replace('+','-');
+                });
+              else
+                $(this).children('.icon').text(function () {
+                  return $(this).text().replace('-','+');
+                });
+            });
           });
         </script>
 
@@ -45,7 +60,7 @@
             </button>
             <a class="navbar-brand" href="/">APOG</a>
           </div>
-          <div class="collapse navbar-collapse">
+          <div class="navbar-collapse">
             <ul class="nav navbar-nav">
               <li><a href="nostalgia.html">Home</a></li>
               <li class="active"><a href="faq.html">FAQ</a></li>
@@ -61,85 +76,85 @@
                 <img src="images/grass.png" class="divider" />
             </header>
             <div id="details">
-                  <h1>Festival Information</h1>
+                  <h2>Festival Information</h2>
                   <p>First of all:</p>
                 	<ol>
-                		<li>July 27-29th 2018</li>
+                		<li>July 27 - sa29th 2018</li>
                     <li>Put that date in your calendar!</li>
                 	</ol>
 
-                  <h3>What is APOG?</h3>
-                      <ul><li>A multi-day event that delivers all attendees opportunities to share creativity, engage in community, and have a lot of fun.</li></ul>
-                  <h3>Where is APOG?</h3>
-                      <ul><li>It’s a secret! APOG will be held on 20-acres of private land tucked away in the forests of Whatcom County. More info will be provided to ticket holders immediately before the event.</li></ul>
-                  <h3>Can I see a map of the venue?</h3>
-                      <ul><li>Sure can! Click that --> <a href="map.html">Link</a></li></ul>
-                  <h3>How do I get there?</h3>
-                      <ul><li>Instructions will be delivered to ticket holders 24 hours prior to the event. Average travel time from Seattle (without traffic) is 90 minutes. Please reduce our impact by carpooling with friends. Have extra space in your car? Post to the Facebook group and find some folks to share gas costs ;)</li></ul>
-                  <h3>When can I arrive? When do I have to leave?</h3>
-                      <ul><li>Gates open Friday July 27 at 3:00PM. All guests must leave by 5:00PM on Sunday July 29.</li></ul>
-                  <h3>Can I leave and re-enter the event?</h3>
-                      <ul><li>Re-entry is not allowed. For specific questions and concerns contact info@apog.life</li></ul>
-                  <h3>Pack-it-in/Pack-it-out:</h3>
-                      <ul><li>APOG is a leave-no-trace event, which means we are all responsible for leaving the venue in the condition we found it. Plan ahead and reduce or eliminate packaging on the items you bring to limit how much trash you produce at the event. Always bring trash and waste back to your camp and never drop garbage in the forest - especially cigarette butts(Pro-tip for smokers: Bring a small altoid tin or metal container to catch ash from your butts)! Pack a few garbage bags to collect the waste you produce at your campsite. We ask that you pack your trash out of the venue and dispose of it after the event.</li></ul>
-                  <h3>Is there cell service at the venue?</h3>
-                      <ul><li>Most carriers have adequate coverage in the venue, though data connections can be slow. Use the excuse to leave your phone in your pocket and live in the moment!</li></ul>
-                  <h3>Are animals allowed?</h3>
-                      <ul><li>Animals are not allowed (except your freaky-ass self).</li></ul>
-                  <h3>Where are water and bathrooms?</h3>
-                      <ul><li>Bathrooms and water stations are available at the center of the venue.</li></ul>
-                  <h3>What’s the weather going to be like?</h3>
-                      <ul><li>Glorious PNW summer weather is the expectation—but check your favorite weather forecast before you arrive. Late July temps average between a high of 75F during the day to a low of 52F at night. We advise to bring at least one piece of rain gear, just in case.</li></ul>
-                  <h3>Will you be posting set times?</h3>
-                      <ul><li>Yes! Stay tuned for a post in the Facebook group and email.</li></ul>
-                  <h3>Where can I go for information or help?</h3>
-                      <ul><li>Information and first aid or emergency services will be available 24 hours a day at the operations center adjacent to the Meadow Stage. A First Aid cross banner will be next to the door.</li></ul>
-                  <h3>Will there be vendors?</h3>
-                      <ul><li>There will be no vendors on site. Pack all food, alcohol, and supplies you will need for the entire weekend.</li></ul>
-                  <h3>Can I bring alcohol?</h3>
-                      <ul><li>Yes (and bring some to share)!  Glass is strongly discouraged for safety concerns. Please opt for canned liquids and plastic containers whenever possible.</li></ul>
-                  <h3>Can I smoke cigarettes onsite?</h3>
-                      <ul><li>TBD - Late July may present a high fire risk, which may require that we prohibit cigarettes or confine them to designated smoking areas for safety. Stay tuned for an announcement before the event. If you’ve been waiting to join Vape Nation, now may be the time.</li></ul>
-                  <h3>Can I bring my bike?</h3>
-                      <ul><li>No bikes. While the venue is fairly large the areas of interest are quite close together. Your bike will be of no use if you choose to explore the forest :)</li></ul>
-                  <h3>Can I bring my camera?</h3>
-                      <ul><li>Yes, please do. Take dope photos.</li></ul>
-                  <h3>Can I bring a drone?</h3>
-                      <ul><li>Drones must be registered with APOG. Please contact info@apog.life</li></ul>
-                  <h3>How can I get involved?</h3>
-                      <ul><li>Interested in volunteering with set-up/tear-down or helping with fun programming? Send us an email at: info@apog.life</li></ul>
+                  <h3><span class="icon">+</span> What is APOG?</h3>
+                      <ul class="faq-answer"><li>A multi-day event that delivers all attendees opportunities to share creativity, engage in community, and have a lot of fun.</li></ul>
+                  <h3>+ Where is APOG?</h3>
+                      <ul class="faq-answer"><li>It’s a secret! APOG will be held on 20-acres of private land tucked away in the forests of Whatcom County. More info will be provided to ticket holders immediately before the event.</li></ul>
+                  <h3>+ Can I see a map of the venue?</h3>
+                      <ul class="faq-answer"><li>Sure can! Click that --> <a href="map.html">Link</a></li></ul>
+                  <h3>+ How do I get there?</h3>
+                      <ul class="faq-answer"><li>Instructions will be delivered to ticket holders 24 hours prior to the event. Average travel time from Seattle (without traffic) is 90 minutes. Please reduce our impact by carpooling with friends. Have extra space in your car? Post to the Facebook group and find some folks to share gas costs ;)</li></ul>
+                  <h3>+ When can I arrive? When do I have to leave?</h3>
+                      <ul class="faq-answer"><li>Gates open Friday July 27 at 3:00PM. All guests must leave by 5:00PM on Sunday July 29.</li></ul>
+                  <h3>+ Can I leave and re-enter the event?</h3>
+                      <ul class="faq-answer"><li>Re-entry is not allowed. For specific questions and concerns contact info@apog.life</li></ul>
+                  <h3>+ Pack-it-in/Pack-it-out:</h3>
+                      <ul class="faq-answer"><li>APOG is a leave-no-trace event, which means we are all responsible for leaving the venue in the condition we found it. Plan ahead and reduce or eliminate packaging on the items you bring to limit how much trash you produce at the event. Always bring trash and waste back to your camp and never drop garbage in the forest - especially cigarette butts(Pro-tip for smokers: Bring a small altoid tin or metal container to catch ash from your butts)! Pack a few garbage bags to collect the waste you produce at your campsite. We ask that you pack your trash out of the venue and dispose of it after the event.</li></ul>
+                  <h3>+ Is there cell service at the venue?</h3>
+                      <ul class="faq-answer"><li>Most carriers have adequate coverage in the venue, though data connections can be slow. Use the excuse to leave your phone in your pocket and live in the moment!</li></ul>
+                  <h3>+ Are animals allowed?</h3>
+                      <ul class="faq-answer"><li>Animals are not allowed (except your freaky-ass self).</li></ul>
+                  <h3>+ Where are water and bathrooms?</h3>
+                      <ul class="faq-answer"><li>Bathrooms and water stations are available at the center of the venue.</li></ul>
+                  <h3>+ What’s the weather going to be like?</h3>
+                      <ul class="faq-answer"><li>Glorious PNW summer weather is the expectation—but check your favorite weather forecast before you arrive. Late July temps average between a high of 75F during the day to a low of 52F at night. We advise to bring at least one piece of rain gear, just in case.</li></ul>
+                  <h3>+ Will you be posting set times?</h3>
+                      <ul class="faq-answer"><li>Yes! Stay tuned for a post in the Facebook group and email.</li></ul>
+                  <h3>+ Where can I go for information or help?</h3>
+                      <ul class="faq-answer"><li>Information and first aid or emergency services will be available 24 hours a day at the operations center adjacent to the Meadow Stage. A First Aid cross banner will be next to the door.</li></ul>
+                  <h3>+ Will there be vendors?</h3>
+                      <ul class="faq-answer"><li>There will be no vendors on site. Pack all food, alcohol, and supplies you will need for the entire weekend.</li></ul>
+                  <h3>+ Can I bring alcohol?</h3>
+                      <ul class="faq-answer"><li>Yes (and bring some to share)!  Glass is strongly discouraged for safety concerns. Please opt for canned liquids and plastic containers whenever possible.</li></ul>
+                  <h3>+ Can I smoke cigarettes onsite?</h3>
+                      <ul class="faq-answer"><li>TBD - Late July may present a high fire risk, which may require that we prohibit cigarettes or confine them to designated smoking areas for safety. Stay tuned for an announcement before the event. If you’ve been waiting to join Vape Nation, now may be the time.</li></ul>
+                  <h3>+ Can I bring my bike?</h3>
+                      <ul class="faq-answer"><li>No bikes. While the venue is fairly large the areas of interest are quite close together. Your bike will be of no use if you choose to explore the forest :)</li></ul>
+                  <h3>+ Can I bring my camera?</h3>
+                      <ul class="faq-answer"><li>Yes, please do. Take dope photos.</li></ul>
+                  <h3>+ Can I bring a drone?</h3>
+                      <ul class="faq-answer"><li>Drones must be registered with APOG. Please contact info@apog.life</li></ul>
+                  <h3>+ How can I get involved?</h3>
+                      <ul class="faq-answer"><li>Interested in volunteering with set-up/tear-down or helping with fun programming? Send us an email at: info@apog.life</li></ul>
 
                   </br></br></br>
-                  <h1>Camping Information</h1>
+                  <h2>Camping Information</h2>
 
-                  <h3>Can I bring a grill or build a fire?</h3>
-                      <ul><li>Open fires will not be allowed (we anticipate a burn ban will be in effect anyway). Propane camp stoves are allowed and encouraged. Please do not bring charcoal grills or wood burning grills.</li></ul>
-                  <h3>Where can I get water? What about ice?</h3>
-                      <ul><li>Water will be available at stations located near the center of the venue. Ice will not be available for sale in the venue but can be purchased from a gas station a few minutes from the venue on your way in. Please note: re-entry is not allowed. </li></ul>
-                  <h3>What is the campsite like?</h3>
-                      <ul><li>All campsite are walk-in, just a short distance from the parking areas (<3min). Some sites are located in grass clearings, and others are tucked away in the forest. Sites are first-come-first-serve so get in early to claim your perfect spot. Several camp spots will be located next to our stages and the event will have a very open layout. Bring earplugs in anticipation of late-night music and/or noisy neighbors.</li></ul>
-                  <h3>Can I bring a hammock?</h3>
-                      <ul><li>Hell yeah! Please do not attach hammocks to trees less than 6” in diameter.  Be aware that some hammocks may belong to attendees so please be respectful.</li></ul>
-                  <h3>Can I camp next to my friends?</h3>
-                      <ul><li>There are a limited number of campsites large enough for multiple tents, arrive early to claim one as all sites are first-come-first-serve. Please be courteous to other guests who may want to camp in the same area and share the space.</li></ul>
-                  <h3>Can I leave and re-enter the event?</h3>
-                      <ul><li>Re-entry is not allowed. For specific questions and concerns contact: info@apog.life</li></ul>
-                  <h3>Will there be electricity in the camping area?</h3>
-                      <ul><li>The entire venue is off of the electric grid and there will not be power available for personal use. Pack a few battery blocks to keep your devices juiced up.</li></ul>
-                  <h3>What camping gear should I bring?</h3>
-                      <ul><li>See our recommended packing section below.</li></ul>
-                  <h3>Will there be showers?</h3>
-                      <ul><li>There will not be showers available. Plan to bring shower wipes (Defense wipes are amazing LINK) or bring your own solar shower. (If you do choose to shower at APOG, biodegradable shower soaps such as Dr. Bronners are required, so please plan accordingly.)</li></ul>
-                  <h3>Will I have access to my car?</h3>
-                      <ul><li>Yes. Cars will be consolidated into nearby areas to conserve space in the venue. Depending on where you choose to set up your campsite your vehicle may be a few minutes away by foot. Keep this in mind when packing and remember to bring items that don’t suck to carry by hand in case you find the perfect spot deep in the woods. We also anticipate double-parking cars to conserve space. Anyone leaving early will need to make sure to inform our planning committee by contacting: info@apog.life</li></ul>
-                  <h3>Can I bring a camper or RV?</h3>
-                      <ul><li>Camper trailers and RVs are not allowed due to vehicle access and space constraints. Thank you for your understanding.</li></ul>
-                  <h3>Can I bring my own sound system?</h3>
-                      <ul><li>Small battery powered speakers are allowed. Please be courteous to your neighbors and move your party into the forest if you are disturbing guests who are trying to get some rest.</li></ul>
+                  <h3>+ Can I bring a grill or build a fire?</h3>
+                      <ul class="faq-answer"><li>Open fires will not be allowed (we anticipate a burn ban will be in effect anyway). Propane camp stoves are allowed and encouraged. Please do not bring charcoal grills or wood burning grills.</li></ul>
+                  <h3>+ Where can I get water? What about ice?</h3>
+                      <ul class="faq-answer"><li>Water will be available at stations located near the center of the venue. Ice will not be available for sale in the venue but can be purchased from a gas station a few minutes from the venue on your way in. Please note: re-entry is not allowed. </li></ul>
+                  <h3>+ What is the campsite like?</h3>
+                      <ul class="faq-answer"><li>All campsite are walk-in, just a short distance from the parking areas (<3min). Some sites are located in grass clearings, and others are tucked away in the forest. Sites are first-come-first-serve so get in early to claim your perfect spot. Several camp spots will be located next to our stages and the event will have a very open layout. Bring earplugs in anticipation of late-night music and/or noisy neighbors.</li></ul>
+                  <h3>+ Can I bring a hammock?</h3>
+                      <ul class="faq-answer"><li>Hell yeah! Please do not attach hammocks to trees less than 6” in diameter.  Be aware that some hammocks may belong to attendees so please be respectful.</li></ul>
+                  <h3>+ Can I camp next to my friends?</h3>
+                      <ul class="faq-answer"><li>There are a limited number of campsites large enough for multiple tents, arrive early to claim one as all sites are first-come-first-serve. Please be courteous to other guests who may want to camp in the same area and share the space.</li></ul>
+                  <h3>+ Can I leave and re-enter the event?</h3>
+                      <ul class="faq-answer"><li>Re-entry is not allowed. For specific questions and concerns contact: info@apog.life</li></ul>
+                  <h3>+ Will there be electricity in the camping area?</h3>
+                      <ul class="faq-answer"><li>The entire venue is off of the electric grid and there will not be power available for personal use. Pack a few battery blocks to keep your devices juiced up.</li></ul>
+                  <h3>+ What camping gear should I bring?</h3>
+                      <ul class="faq-answer"><li>See our recommended packing section below.</li></ul>
+                  <h3>+ Will there be showers?</h3>
+                      <ul class="faq-answer"><li>There will not be showers available. Plan to bring shower wipes (Defense wipes are amazing LINK) or bring your own solar shower. (If you do choose to shower at APOG, biodegradable shower soaps such as Dr. Bronners are required, so please plan accordingly.)</li></ul>
+                  <h3>+ Will I have access to my car?</h3>
+                      <ul class="faq-answer"><li>Yes. Cars will be consolidated into nearby areas to conserve space in the venue. Depending on where you choose to set up your campsite your vehicle may be a few minutes away by foot. Keep this in mind when packing and remember to bring items that don’t suck to carry by hand in case you find the perfect spot deep in the woods. We also anticipate double-parking cars to conserve space. Anyone leaving early will need to make sure to inform our planning committee by contacting: info@apog.life</li></ul>
+                  <h3>+ Can I bring a camper or RV?</h3>
+                      <ul class="faq-answer"><li>Camper trailers and RVs are not allowed due to vehicle access and space constraints. Thank you for your understanding.</li></ul>
+                  <h3>+ Can I bring my own sound system?</h3>
+                      <ul class="faq-answer"><li>Small battery powered speakers are allowed. Please be courteous to your neighbors and move your party into the forest if you are disturbing guests who are trying to get some rest.</li></ul>
 
                   <div class="box">
                         <marquee>
-                              <p>July 27-29th 2018</p>
+                              <p>July 27 - 29th 2018</p>
                               <p>Put that date in your calendar!</p>
                         </marquee>
                   </div>
