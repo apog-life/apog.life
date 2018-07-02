@@ -24,6 +24,13 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="faq.css" type="text/css" />
 
+        <script>
+          $(document).ready(function() {
+            $("ul").hide();
+            $("h3").click(function() { console.log("click"); console.log($(this).next().toggle()); })
+          });
+        </script>
+
     </head>
 
     <body>
@@ -53,18 +60,19 @@
                 <img src="images/grass.png" class="divider" />
             </header>
             <div id="details">
-                  <h2>Festival Information</h2>
-                	<ul>
-                		<li>When: July 27-29th 2018</li>
+                  <h1>Festival Information</h1>
+                  <p>First of all:</p>
+                	<ol>
+                		<li>July 27-29th 2018</li>
                     <li>Put that date in your calendar!</li>
-                	</ul>
+                	</ol>
 
                   <h3>What is APOG?</h3>
                       <ul><li>A multi-day event that delivers all attendees opportunities to share creativity, engage in community, and have a lot of fun.</li></ul>
                   <h3>Where is APOG?</h3>
                       <ul><li>It’s a secret! APOG will be held on 20-acres of private land tucked away in the forests of Whatcom County. More info will be provided to ticket holders immediately before the event.</li></ul>
                   <h3>How do I get there?</h3>
-                      <ul><li>Instructions will be delivered to ticket holders 24 hours prior to the event. Average travel time from Seattle (without traffic) is 90 minutes. Please reduce our impact by carpooling with friends. Have extra space in your car? Post to the Facebook group and find some folk to share gas costs ;)</li></ul>
+                      <ul><li>Instructions will be delivered to ticket holders 24 hours prior to the event. Average travel time from Seattle (without traffic) is 90 minutes. Please reduce our impact by carpooling with friends. Have extra space in your car? Post to the Facebook group and find some folks to share gas costs ;)</li></ul>
                   <h3>When can I arrive? When do I have to leave?</h3>
                       <ul><li>Gates open Friday July 27 at 3:00PM. All guests must leave by 5:00PM on Sunday July 29.</li></ul>
                   <h3>Can I leave and re-enter the event?</h3>
@@ -98,7 +106,8 @@
                   <h3>How can I get involved?</h3>
                       <ul><li>Interested in volunteering with set-up/tear-down or helping with fun programming? Send us an email at: info@apog.life</li></ul>
 
-                  <h2>Camping Information</h2>
+                  </br></br></br>
+                  <h1>Camping Information</h1>
 
                   <h3>Can I bring a grill or build a fire?</h3>
                       <ul><li>Open fires will not be allowed (we anticipate a burn ban will be in effect anyway). Propane camp stoves are allowed and encouraged. Please do not bring charcoal grills or wood burning grills.</li></ul>
